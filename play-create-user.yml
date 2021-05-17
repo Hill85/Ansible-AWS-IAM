@@ -1,10 +1,10 @@
-# Example CSV file with header - create users on AWS
+# Example CSV file with header - create groups and users on AWS
+# Apply Enforce-MFA policy to the groups and apply proper policy to each group 
 # 
 # Install community.general.read_csv module by typing ansible-galaxy collection install community.general
 # Install community.aws.iam by typing ansible-galaxy collection install community.aws
 # Install pip3 install boto
 # 
-# Create groups first so users can be allocated to them according to the CSV file
 # Change 'state' to 'absent' to delete users from the same CSV file
 # 
 # CSV file ex:
